@@ -1,0 +1,16 @@
+{
+  "name": "cli-supported-metadata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "got": "^11.7.0",
+    "salesforce-alm": "^50.2.0",
+    "shelljs": "^0.8.4"
+  }
+}
