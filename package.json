@@ -1,13 +1,12 @@
 {
   "name": "cli-supported-metadata",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "List the Salesforce CLI supported metadata.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Thomas Dvornik (amphro)",
+  "license": "BSD-3-Clause",
   "dependencies": {
     "got": "^11.7.0",
     "salesforce-alm": "^50.2.0",
