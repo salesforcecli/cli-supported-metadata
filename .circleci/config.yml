@@ -19,5 +19,7 @@ workflows:
               only:
                 - main
     jobs:
-      - update-metadata
-    
+      - update-metadata:
+          filters:
+            branches:
+              only: main
