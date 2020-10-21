@@ -54,7 +54,7 @@ missingMetadataTypes.sort().forEach(type => contents += ` * ${type}\n`)
   console.log('Wrote README.md');
 
   shell.exec(`git add .`);
-  if (shell.exec(`git commit -am "Adding types for salesforce-alm@${version}"`).code !== 0) {
+  if (shell.exec(`git commit -am "chore: adding types for salesforce-alm@${version}"`).code !== 0) {
     shell.echo('Error: Git commit failed - usually nothing to commit which means there are no new metadata type support added in this version of salesforce-alm');
   }
 })().catch(console.error);
