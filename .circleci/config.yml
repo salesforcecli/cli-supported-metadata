@@ -1,0 +1,23 @@
+version: 2.1
+
+jobs:
+  update-metadata:
+    docker:
+      - image: circleci/node:latest
+    steps:
+      - run: node generate-supported-metadata.js
+      - run: git push
+
+workflows:
+  version: 2
+  update-metadata:
+    triggers:
+      - schedule:
+          cron: "0 0 * * 4"
+          filters:
+            branches:
+              only:
+                - main
+    jobs:
+      - update-metadata
+    
