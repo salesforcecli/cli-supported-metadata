@@ -1,19 +1,17 @@
 version: 2.1
-
 jobs:
   update-metadata:
     docker:
-      - image: circleci/node:latest
+      - image: 'circleci/node:latest'
     steps:
       - run: node ./generate-supported-metadata.js
       - run: git push
-
 workflows:
   version: 2
   update-metadata:
     triggers:
       - schedule:
-          cron: "0 0 * * 4"
+          cron: 0 0 * * 4
           filters:
             branches:
               only:
@@ -23,3 +21,15 @@ workflows:
           filters:
             branches:
               only: main
+  test-ts-update:
+    triggers:
+      - schedule:
+          cron: 0 0 * * *
+          filters:
+            branches:
+              only:
+                - main
+    jobs:
+      - release-management/test-ts-update
+orbs:
+  release-management: salesforce/npm-release-management@4
