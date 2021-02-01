@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "List the Salesforce CLI supported metadata.",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "posttest": "yarn lint && yarn test:deprecation-policy && yarn test:command-reference"
   },
   "author": "Thomas Dvornik (amphro)",
   "license": "BSD-3-Clause",
