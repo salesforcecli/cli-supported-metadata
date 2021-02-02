@@ -12,5 +12,9 @@
     "got": "^11.7.0",
     "salesforce-alm": "^50.2.0",
     "shelljs": "^0.8.4"
+  },
+  "devDependencies": {
+    "@oclif/plugin-command-snapshot": "^2.0.0",
+    "@salesforce/plugin-command-reference": "^1.3.0"
   }
 }
