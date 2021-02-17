@@ -4,6 +4,7 @@ jobs:
     docker:
       - image: 'circleci/node:latest'
     steps:
+      - checkout
       - run: node ./generate-supported-metadata.js
       - run: git push
 workflows:
