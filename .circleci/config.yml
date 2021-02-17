@@ -5,6 +5,7 @@ jobs:
       - image: 'circleci/node:latest'
     steps:
       - checkout
+      - run: yarn
       - run: node ./generate-supported-metadata.js
       - run: git push
 workflows:
