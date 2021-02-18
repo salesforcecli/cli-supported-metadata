@@ -2657,7 +2657,7 @@ safer-buffer@^2.0.2, safer-buffer@^2.1.0, safer-buffer@~2.1.0:
 
 salesforce-alm@^51.0.1:
   version "51.0.1"
-  resolved "https://registry.yarnpkg.com/salesforce-alm/-/salesforce-alm-51.0.1.tgz#aab785d0a1fae05e540eec3ddc57c87f4302841a"
+  resolved "https://registry.npmjs.org/salesforce-alm/-/salesforce-alm-51.0.1.tgz#aab785d0a1fae05e540eec3ddc57c87f4302841a"
   integrity sha512-CefnzwNlNPM3R+oosZuMRG3iWn6vESacuQg6sFHCFVMdRr7No8BCRBKAnnvK3RfCQmuVgVHgTtzfavP9+4kGMg==
   dependencies:
     "@oclif/config" "^1.14.0"

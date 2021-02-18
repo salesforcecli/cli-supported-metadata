@@ -12,9 +12,9 @@ shell.exec('yarn add salesforce-alm@latest-rc');
   const coverageReportResponse = await got(`https://mdcoverage.secure.force.com/services/apexrest/report?version=${majorVersion}`);
   const coverageReportTypes = JSON.parse(coverageReportResponse.body).types
 
-  const cliSupportedTypeKeys = Object.keys(cliSupportedTypes);
   const allMetadataTypeKeys = Object.keys(coverageReportTypes);
-
+  const settingsTypeKeys = allMetadataTypeKeys.filter(k => k.endsWith('Settings'));
+  const cliSupportedTypeKeys = Array.from(new Set(Object.keys(cliSupportedTypes).concat(settingsTypeKeys)));
   const missingMetadataTypes = [];
 
   cliSupportedTypeKeys.forEach(type => {
