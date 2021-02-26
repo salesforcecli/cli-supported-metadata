@@ -24,15 +24,5 @@ workflows:
           filters:
             branches:
               only: main
-  test-ts-update:
-    triggers:
-      - schedule:
-          cron: 0 0 * * *
-          filters:
-            branches:
-              only:
-                - main
-    jobs:
-      - release-management/test-ts-update
 orbs:
   release-management: salesforce/npm-release-management@4
