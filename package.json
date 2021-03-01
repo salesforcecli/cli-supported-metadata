@@ -8,7 +8,7 @@
   "author": "Thomas Dvornik (amphro)",
   "license": "BSD-3-Clause",
   "dependencies": {
-    "got": "^11.8.1",
+    "got": "^11.8.2",
     "salesforce-alm": "^51.1.1",
     "shelljs": "^0.8.4"
   }
