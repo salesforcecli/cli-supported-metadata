@@ -1011,7 +1011,7 @@ csprng@*, csprng@~0.1.2:
   dependencies:
     sequin "*"
 
-csv-parse@^4.10.1, csv-parse@^4.6.3, csv-parse@^4.6.5:
+csv-parse@^4.10.1, csv-parse@^4.6.3:
   version "4.12.0"
   resolved "https://registry.yarnpkg.com/csv-parse/-/csv-parse-4.12.0.tgz#fd42d6291bbaadd51d3009f6cadbb3e53b4ce026"
   integrity sha512-wPQl3H79vWLPI8cgKFcQXl0NBgYYEqVnT1i6/So7OjMpsI540oD7p93r3w6fDSyPvwkTepG05F69/7AViX2lXg==
@@ -1426,7 +1426,7 @@ getpass@^0.1.1:
   dependencies:
     assert-plus "^1.0.0"
 
-gitignore-parser@0.0.2, gitignore-parser@^0.0.2:
+gitignore-parser@0.0.2:
   version "0.0.2"
   resolved "https://registry.yarnpkg.com/gitignore-parser/-/gitignore-parser-0.0.2.tgz#f61259b985dd91414b9a7168faef9171c2eec5df"
   integrity sha1-9hJZuYXdkUFLmnFo+u+RccLuxd8=
@@ -2635,10 +2635,10 @@ safer-buffer@^2.0.2, safer-buffer@^2.1.0, safer-buffer@~2.1.0:
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
 
-salesforce-alm@^51.4.0:
-  version "51.4.0"
-  resolved "https://registry.yarnpkg.com/salesforce-alm/-/salesforce-alm-51.4.0.tgz#08d493cb9b265483a0816ce22627af836b1ef512"
-  integrity sha512-BrgoD3LmZaGlYXnhqG+tzjuQ0CUA3I8lvCAdGx6R7AuYW7wwBGQBvmIIfB+wl+o6/S9Ab8Fb5w05nyBnDJYdPQ==
+salesforce-alm@^51.6.7:
+  version "51.6.7"
+  resolved "https://registry.yarnpkg.com/salesforce-alm/-/salesforce-alm-51.6.7.tgz#85fc93f2cd4cb557bee52181863d04fd927ee2ce"
+  integrity sha512-HFDBgw6VZ5qXIyAMnm4W1iB7Mj2s88eoSazkg8Q+zXXst7nRhYTh0VXX54oNENky5GH7pvdjkKRqaL2e9c0ZVQ==
   dependencies:
     "@oclif/config" "^1.14.0"
     "@oclif/errors" "^1.2.2"
@@ -2656,11 +2656,9 @@ salesforce-alm@^51.4.0:
     bunyan-sfdx-no-dtrace "^1.8.2"
     chalk "^2.4.2"
     cli-ux "^5.4.4"
-    csv-parse "^4.6.5"
     debug "^3.2.6"
     fast-xml-parser "^3.17.4"
     fs-extra "^4.0.3"
-    gitignore-parser "^0.0.2"
     glob "^7.1.6"
     heroku-cli-util "^8.0.12"
     js2xmlparser "^3.0.0"
