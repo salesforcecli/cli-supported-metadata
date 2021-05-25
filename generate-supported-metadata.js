@@ -3,7 +3,7 @@ const got = require('got');
 const shell = require('shelljs');
 const cliSupportedTypes = require('salesforce-alm/metadata/metadataTypeInfos.json').typeDefs;
 
-const version = JSON.parse(shell.exec('npm view salesforce-alm dist-tags --json').stdout)['latest-rc'];
+const version = JSON.parse(shell.exec('npm view salesforce-alm dist-tags --json').stdout)['latest'];
 const majorVersion = version.split('.')[0];
 
 shell.exec('yarn add salesforce-alm@latest-rc');
