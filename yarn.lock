@@ -2608,10 +2608,10 @@ safer-buffer@^2.0.2, safer-buffer@^2.1.0, safer-buffer@~2.1.0:
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
 
-salesforce-alm@^51.6.18:
-  version "51.6.18"
-  resolved "https://registry.yarnpkg.com/salesforce-alm/-/salesforce-alm-51.6.18.tgz#b980e3684aac74e1f16d918646e69e9b9ac30884"
-  integrity sha512-OWJ0mmirRzC0qzSurkWqtj/fiV4S63ulgLgPeT2MpTXCMgD1ZpOwfF6D1q9qbFSmjomHvCizSmxRqyeorxfxhA==
+salesforce-alm@^51.6.26:
+  version "51.6.26"
+  resolved "https://registry.yarnpkg.com/salesforce-alm/-/salesforce-alm-51.6.26.tgz#8d12576421baf115aa5bce757629647e1300c9ce"
+  integrity sha512-4MXz1uYBgKkaOu9Nq1HnOepAaPV7ZFUBj+xSaEzPO4oEmHw9sIMvCd4VU9Wg/283oO4df7DzDutTt7ImM60fng==
   dependencies:
     "@oclif/config" "^1.14.0"
     "@oclif/errors" "^1.2.2"
