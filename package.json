@@ -9,7 +9,7 @@
   "license": "BSD-3-Clause",
   "dependencies": {
     "got": "^11.8.2",
-    "salesforce-alm": "^51.6.26",
+    "salesforce-alm": "^51.7.1",
     "shelljs": "^0.8.4"
   }
 }
