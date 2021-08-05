@@ -1,8 +1,8 @@
 # Supported CLI Metadata Types
 
-This list compares metadata types found in the [Metadata Coverage Report v52](https://developer.salesforce.com/docs/metadata-coverage/52) with the metadata info file shipped with [salesforce-alm@52.1.9](https://www.npmjs.com/package/salesforce-alm).
+This list compares metadata types found in the [Metadata Coverage Report v52](https://developer.salesforce.com/docs/metadata-coverage/52) with the metadata info file shipped with [salesforce-alm@52.2.2](https://www.npmjs.com/package/salesforce-alm).
 
-Currently, there are 379/443 supported metadata types in Salesforce CLI. We are constantly adding more support with the eventual goal of zero metadata gaps. For status on any existing gaps, please search or file an issue in the [Salesforce CLI issues only repo](https://github.com/forcedotcom/cli/issues).
+Currently, there are 379/445 supported metadata types in Salesforce CLI. We are constantly adding more support with the eventual goal of zero metadata gaps. For status on any existing gaps, please search or file an issue in the [Salesforce CLI issues only repo](https://github.com/forcedotcom/cli/issues).
 
 |Metadata Type|Salesforce CLI Support|Source Tracking Support|Metadata API Support|
 |-|:-:|:-:|:-:|
@@ -392,6 +392,7 @@ Currently, there are 379/443 supported metadata types in Salesforce CLI. We are 
 |SiteDotCom|✅|✅|✅|
 |SiteSettings|✅|||
 |Skill|✅|✅|✅|
+|SlackApp||✅|✅|
 |SocialCustomerServiceSettings|✅|✅|✅|
 |SocialProfileSettings|✅|✅|✅|
 |SourceTrackingSettings|✅|✅|✅|
@@ -424,6 +425,7 @@ Currently, there are 379/443 supported metadata types in Salesforce CLI. We are 
 |UserManagementSettings|✅|✅|✅|
 |UserProvisioningConfig||✅|✅|
 |ValidationRule|✅|✅|✅|
+|ViewDefinition||✅|✅|
 |VisualizationPlugin|✅|||
 |WaveApplication|✅|✅|✅|
 |WaveComponent||✅|✅|
