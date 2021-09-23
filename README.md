@@ -1,6 +1,6 @@
 # Supported CLI Metadata Types
 
-This list compares metadata types found in the [Metadata Coverage Report v52](https://developer.salesforce.com/docs/metadata-coverage/52) with the metadata info file shipped with [salesforce-alm@52.3.3](https://www.npmjs.com/package/salesforce-alm).
+This list compares metadata types found in the [Metadata Coverage Report v52](https://developer.salesforce.com/docs/metadata-coverage/52) with the metadata info file shipped with [salesforce-alm@52.3.4](https://www.npmjs.com/package/salesforce-alm).
 
 Currently, there are 385/470 supported metadata types in Salesforce CLI. We are constantly adding more support with the eventual goal of zero metadata gaps. For status on any existing gaps, please search or file an issue in the [Salesforce CLI issues only repo](https://github.com/forcedotcom/cli/issues).
 
