@@ -1,6 +1,6 @@
 # Supported CLI Metadata Types
 
-This list compares metadata types found in the [Metadata Coverage Report v52](https://developer.salesforce.com/docs/metadata-coverage/52) with the metadata info file shipped with [salesforce-alm@52.5.1](https://www.npmjs.com/package/salesforce-alm).
+This list compares metadata types found in the [Metadata Coverage Report v53](https://developer.salesforce.com/docs/metadata-coverage/53) with the metadata info file shipped with [salesforce-alm@53.1.2](https://www.npmjs.com/package/salesforce-alm).
 
 Currently, there are 385/470 supported metadata types in Salesforce CLI. We are constantly adding more support with the eventual goal of zero metadata gaps. For status on any existing gaps, please search or file an issue in the [Salesforce CLI issues only repo](https://github.com/forcedotcom/cli/issues).
 
@@ -11,7 +11,7 @@ Currently, there are 385/470 supported metadata types in Salesforce CLI. We are 
 |AIAssistantTemplate|✅|||
 |AILiveMetricDefinition||||
 |AIReplyRecommendationsSettings|✅|✅|✅|
-|AccessControlPolicy|✅|✅|✅|
+|AccessControlPolicy|✅|||
 |AccountForecastSettings|✅|✅|✅|
 |AccountInsightsSettings|✅|✅|✅|
 |AccountIntelligenceSettings|✅|✅|✅|
@@ -24,7 +24,7 @@ Currently, there are 385/470 supported metadata types in Salesforce CLI. We are 
 |ActivitiesSettings|✅|✅|✅|
 |AddressSettings|✅|✅|✅|
 |AdvAccountForecastSet||✅|✅|
-|AdvAcctForecastDimSource||||
+|AdvAcctForecastDimSource||✅|✅|
 |AdvAcctForecastPeriodGroup||✅|✅|
 |AnalysisConfiguration||||
 |AnalyticSnapshot|✅|✅|✅|
@@ -42,7 +42,7 @@ Currently, there are 385/470 supported metadata types in Salesforce CLI. We are 
 |AppMenu|✅|✅|✅|
 |AppleDomainVerification||||
 |ApplicationRecordTypeConfig||✅|✅|
-|AppointmentAssignmentPolicy||||
+|AppointmentAssignmentPolicy||✅|✅|
 |AppointmentSchedulingPolicy|✅|✅|✅|
 |ApprovalProcess|✅|✅|✅|
 |ArchiveSettings|✅|✅|✅|
@@ -53,7 +53,7 @@ Currently, there are 385/470 supported metadata types in Salesforce CLI. We are 
 |AssistantSkillQuickAction||✅|✅|
 |AssistantSkillSobjectAction||✅|✅|
 |AssistantVersion||✅|✅|
-|Audience|||✅|
+|Audience||✅|✅|
 |AuraDefinitionBundle|✅|✅|✅|
 |AuthProvider|✅|✅|✅|
 |AutoResponseRules|✅|✅|✅|
@@ -62,7 +62,7 @@ Currently, there are 385/470 supported metadata types in Salesforce CLI. We are 
 |BatchProcessJobDefinition|✅|✅|✅|
 |BenefitAction|✅|✅|✅|
 |BlacklistedConsumer||✅|✅|
-|BldgEnrgyIntensityCnfg||||
+|BldgEnrgyIntensityCnfg||✅|✅|
 |BlockchainSettings|✅|✅|✅|
 |Bot|✅|✅|✅|
 |BotSettings|✅|✅|✅|
@@ -80,8 +80,8 @@ Currently, there are 385/470 supported metadata types in Salesforce CLI. We are 
 |CampaignInfluenceModel|✅|✅|✅|
 |CampaignSettings|✅|✅|✅|
 |CanvasMetadata|✅|✅|✅|
-|CareBenefitVerifySettings|✅|||
-|CareLimitType||||
+|CareBenefitVerifySettings|✅|✅|✅|
+|CareLimitType||✅|✅|
 |CareProviderSearchConfig|✅|✅|✅|
 |CareRequestConfiguration||✅|✅|
 |CareSystemFieldMapping|✅|✅|✅|
@@ -106,7 +106,7 @@ Currently, there are 385/470 supported metadata types in Salesforce CLI. We are 
 |CompanySettings|✅|✅|✅|
 |ConnectedApp|✅|✅|✅|
 |ConnectedAppSettings|✅|✅|✅|
-|ConnectedSystem||||
+|ConnectedSystem||✅|✅|
 |ContentAsset|✅|✅|✅|
 |ContentSettings|✅|✅|✅|
 |ContractSettings|✅|✅|✅|
@@ -122,7 +122,7 @@ Currently, there are 385/470 supported metadata types in Salesforce CLI. We are 
 |CustomFeedFilter|✅|✅|✅|
 |CustomField|✅|✅|✅|
 |CustomHelpMenuSection|✅|✅|✅|
-|CustomIndex||||
+|CustomIndex||✅|✅|
 |CustomLabels|✅|✅|✅|
 |CustomMetadata|✅|✅|✅|
 |CustomNotificationType|✅|✅|✅|
@@ -139,8 +139,8 @@ Currently, there are 385/470 supported metadata types in Salesforce CLI. We are 
 |DataCategoryGroup|✅|✅|✅|
 |DataConnectorS3|✅|✅|✅|
 |DataDotComSettings|✅|✅|✅|
-|DataMapping||||
-|DataMappingSchema||||
+|DataMapping||✅|✅|
+|DataMappingSchema||✅|✅|
 |DataPipeline|✅|||
 |DataSource|✅|✅|✅|
 |DataSourceObject|✅|✅|✅|
@@ -161,12 +161,12 @@ Currently, there are 385/470 supported metadata types in Salesforce CLI. We are 
 |DocumentGenerationSetting||✅|✅|
 |DocumentType|✅|✅|✅|
 |DuplicateRule|✅|✅|✅|
-|DynamicTrigger|✅|✅|✅|
+|DynamicTrigger|✅|||
 |EACSettings|✅|✅|✅|
 |EclairGeoData|✅|✅|✅|
 |EinsteinAgentSettings|✅|✅|✅|
 |EinsteinAssistantSettings|✅|✅|✅|
-|EinsteinDocumentCaptureSettings|✅|||
+|EinsteinDocumentCaptureSettings|✅|✅|✅|
 |EmailAdministrationSettings|✅|✅|✅|
 |EmailFolder|✅|✅|✅|
 |EmailIntegrationSettings|✅|✅|✅|
@@ -204,7 +204,7 @@ Currently, there are 385/470 supported metadata types in Salesforce CLI. We are 
 |FeatureParameterBoolean|✅|✅|✅|
 |FeatureParameterDate|✅|✅|✅|
 |FeatureParameterInteger|✅|✅|✅|
-|FederationDataMappingUsage||||
+|FederationDataMappingUsage||✅|✅|
 |FeedFieldHistory||||
 |FieldRestrictionRule||✅|✅|
 |FieldServiceMobileExtension|✅|✅|✅|
@@ -218,7 +218,7 @@ Currently, there are 385/470 supported metadata types in Salesforce CLI. We are 
 |FlowCategory|✅|✅|✅|
 |FlowDefinition|✅||✅|
 |FlowSettings|✅|✅|✅|
-|ForecastingObjectListSettings|✅|||
+|ForecastingObjectListSettings|✅|✅|✅|
 |ForecastingSettings|✅|✅|✅|
 |ForecastingSourceDefinition||✅|✅|
 |ForecastingType||✅|✅|
@@ -244,7 +244,7 @@ Currently, there are 385/470 supported metadata types in Salesforce CLI. We are 
 |InboundNetworkConnection|✅|✅|✅|
 |IndMfgSalesAgreementSettings|✅|||
 |Index|✅||✅|
-|IndustriesLoyaltySettings|✅|||
+|IndustriesLoyaltySettings|✅|✅|✅|
 |IndustriesManufacturingSettings|✅|✅|✅|
 |IndustriesSettings|✅|✅|✅|
 |InstalledPackage|✅||✅|
@@ -254,7 +254,7 @@ Currently, there are 385/470 supported metadata types in Salesforce CLI. We are 
 |InventorySettings|✅|✅|✅|
 |InvocableActionSettings|✅|✅|✅|
 |IoTSettings|✅|✅|✅|
-|IsvHammerSettings|✅|✅|✅|
+|IsvHammerSettings|✅|||
 |JournalType||||
 |KeywordList|✅|✅|✅|
 |KnowledgeSettings|✅|✅|✅|
@@ -281,7 +281,7 @@ Currently, there are 385/470 supported metadata types in Salesforce CLI. We are 
 |LoyaltyProgramSetup||||
 |MLDataDefinition||✅|✅|
 |MLPredictionDefinition||✅|✅|
-|MLRecommendationDefinition||||
+|MLRecommendationDefinition||✅|✅|
 |MacroSettings|✅|✅|✅|
 |MailMergeSettings|✅|✅|✅|
 |ManagedContentType|✅||✅|
@@ -292,7 +292,7 @@ Currently, there are 385/470 supported metadata types in Salesforce CLI. We are 
 |MarketingResourceType|✅|||
 |MassMail||||
 |MatchingRules|✅|✅|✅|
-|MediaAdSalesSettings|✅|||
+|MediaAdSalesSettings|✅|✅|✅|
 |MeetingsSettings|✅|||
 |MilestoneType|✅|✅|✅|
 |MktCalcInsightObjectDef||✅|✅|
@@ -318,8 +318,8 @@ Currently, there are 385/470 supported metadata types in Salesforce CLI. We are 
 |OcrSampleDocument|✅|✅|✅|
 |OcrTemplate|✅|✅|✅|
 |OmniChannelSettings|✅|✅|✅|
-|OmniInteractionAccessConfig||||
-|OnlineSalesSettings|✅|||
+|OmniInteractionAccessConfig||✅|✅|
+|OnlineSalesSettings|✅|✅|✅|
 |OpportunityInsightsSettings|✅|✅|✅|
 |OpportunityScoreSettings|✅|✅|✅|
 |OpportunitySettings|✅|✅|✅|
@@ -419,12 +419,12 @@ Currently, there are 385/470 supported metadata types in Salesforce CLI. We are 
 |StandardValueSet|✅|✅|✅|
 |StandardValueSetTranslation|✅|✅|✅|
 |StaticResource|✅|✅|✅|
-|StnryAssetEnrgyUseCnfg||||
+|StnryAssetEnrgyUseCnfg||✅|✅|
 |SummaryLayout||||
 |SurveySettings|✅|✅|✅|
-|SvcCatalogCategory||||
-|SvcCatalogFulfillmentFlow||||
-|SvcCatalogItemDef||||
+|SvcCatalogCategory||✅|✅|
+|SvcCatalogFulfillmentFlow||✅|✅|
+|SvcCatalogItemDef||✅|✅|
 |SynonymDictionary|✅|✅|✅|
 |SystemNotificationSettings|✅|✅|✅|
 |Territory|✅|✅|✅|
@@ -449,7 +449,7 @@ Currently, there are 385/470 supported metadata types in Salesforce CLI. We are 
 |UserProfileSearchScope||||
 |UserProvisioningConfig||✅|✅|
 |ValidationRule|✅|✅|✅|
-|VehAssetEnrgyUseCnfg||||
+|VehAssetEnrgyUseCnfg||✅|✅|
 |ViewDefinition||✅|✅|
 |VisualizationPlugin|✅|||
 |WaveApplication|✅|✅|✅|
